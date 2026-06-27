@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Areas | Lex Support Advisory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { lawSlate: '#111827', lawGold: '#C5A880' },
+                    fontFamily: { serif: ['Playfair Display', 'serif'], sans: ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#FAF9F6] text-slate-900 antialiased flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-100 shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto max-w-7xl px-4 sm:px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <a href="index.html" class="flex flex-col items-center sm:items-start text-center sm:text-left">
+                <span class="font-serif text-xl sm:text-2xl font-bold text-lawSlate">LEX SUPPORT</span>
+                <span class="text-[10px] tracking-[0.25em] text-lawGold font-bold uppercase -mt-0.5">Advisory Chambers</span>
+            </a>
+            <nav class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 font-semibold text-[11px] sm:text-xs tracking-wider uppercase text-slate-600">
+                <a href="index.html" class="hover:text-lawGold transition">Home</a>
+                <a href="about.html" class="hover:text-lawGold transition">About Adv. Pallavi</a>
+                <a href="practice.html" class="text-lawGold">Practice Areas</a>
+                <a href="contact.html" class="bg-lawSlate text-white px-3 py-2 sm:px-4 sm:py-2.5 rounded border border-lawGold/30 hover:bg-lawGold hover:text-lawSlate transition shadow-sm font-bold text-[10px] sm:text-xs">Request Evaluation</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto max-w-6xl px-4 sm:px-6 py-12 sm:py-20 flex-grow">
+        <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16 space-y-2">
+            <span class="text-lawGold text-xs font-bold tracking-[0.2em] uppercase">Core Competencies</span>
+            <h1 class="font-serif text-3xl sm:text-4xl text-lawSlate font-normal">Chambers Legal Specializations</h1>
+            <p class="text-slate-500 text-xs sm:text-sm font-light">Providing elite corporate strategy frameworks and asset containment security grids.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:grid-cols-1 lg:gap-8">
+            <div class="bg-white p-6 sm:p-8 rounded border border-slate-200/60 shadow-sm space-y-4">
+                <span class="text-lawGold text-2xl font-serif block">01</span>
+                <h3 class="font-serif text-xl font-bold text-lawSlate">High-Net Matrimonial Law</h3>
+                <p class="text-slate-600 text-xs font-light leading-relaxed">Divorce engineering, complex asset discovery structures, maintenance dispute defense strategies, and high-stakes child protection custody filings.</p>
+            </div>
+            <div class="bg-white p-6 sm:p-8 rounded border border-slate-200/60 shadow-sm space-y-4">
+                <span class="text-lawGold text-2xl font-serif block">02</span>
+                <h3 class="font-serif text-xl font-bold text-lawSlate">Corporate Risk &amp; Compliance</h3>
+                <p class="text-slate-600 text-xs font-light leading-relaxed">Structural document drafting, cross-border transactional risk audits, institutional protection frameworks, and corporate board mediation.</p>
+            </div>
+            <div class="bg-white p-6 sm:p-8 rounded border border-slate-200/60 shadow-sm space-y-4">
+                <span class="text-lawGold text-2xl font-serif block">03</span>
+                <h3 class="font-serif text-xl font-bold text-lawSlate">Real Estate Arbitration</h3>
+                <p class="text-slate-600 text-xs font-light leading-relaxed">Commercial structural deed verification, deep land title audit sequences, investment protection layout contracts, and title disputes.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-lawSlate text-slate-400 text-xs pt-12 pb-8 px-4 sm:px-6 border-t border-lawGold/20 mt-auto">
+        <div class="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+                <h4 class="font-serif text-white text-base mb-3">LEX SUPPORT</h4>
+                <p class="text-[11px] text-slate-400 font-light">Meticulous legal compliance, asset protection, and corporate counseling under strict security guidelines.</p>
+            </div>
+            <div>
+                <h5 class="text-white font-bold uppercase text-[11px] mb-3">Quick Navigation</h5>
+                <div class="space-y-1 text-[11px] flex flex-col">
+                    <a href="index.html" class="hover:text-lawGold">Home Gateway</a>
+                    <a href="about.html" class="hover:text-lawGold">About Counsel</a>
+                    <a href="contact.html" class="hover:text-lawGold">Secure Intake Portal</a>
+                </div>
+            </div>
+            <div>
+                <h5 class="text-white font-bold uppercase text-[11px] mb-3">Chambers Contact</h5>
+                <p class="text-[11px] font-light">Rachna Nagar, Bhopal, India | pallavi@lexsupport.in</p>
+                <p class="text-lawGold font-bold mt-1 text-sm">+91 7723803338</p>
+            </div>
+        </div>
+        <div class="border-t border-slate-800 mt-8 pt-4 text-center text-[10px] text-slate-500">
+            © 2026 Lex Support Advisory. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
